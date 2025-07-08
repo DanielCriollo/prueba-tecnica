@@ -22,7 +22,7 @@ class UpdateCourseTopicRequest extends FormRequest
      */
     public function rules(): array
     {
-        $courseTopicId = $this->route('course_topic');
+        $courseTopicId = $this->route('id');
 
         return [
             'name' => [
